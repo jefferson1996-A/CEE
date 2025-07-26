@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Asistencia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+</head>
+
+<body>
+    <form class="formulario">
+        <h1>Registro de Asistencia</h1>
+        <label for="cedula">Escriba sus Nombres Completos:</label>
+        <input type="text" name="nombre" placeholder="Nombres Completos" required>
+        <label for="cedula">Escriba su Nùmero de Cedula:</label>
+        <input type="text" name="cedula" placeholder="Cèdula" required>
+
+
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+        <option value="otro">Otro</option>
+        </select>
+        <label for="nacimiento">Elija su Fecha de Nacimiento</label>
+        <input type="text" name="nacimiento" placeholder="Fecha de Nacimiento" required>
+        <label for="direccion">Escriba su Direccion:</label>
+        <input type="text" name="direccion" placeholder="Direccion" required>
+        <label for="telefono">Escriba su Nùmero de Telefono</label>
+        <input type="text" name="telefono" placeholder="Telèfono" required>
+        <label for="email">Escriba su Correo Electronico:</label>
+        <input type="text" name="email" placeholder="Correo Electrònico" required>
+        <label for="capacitacion">Elija el Àrea de Capacitaciòn</label>
+        <select name="capacitacion">
+            <option value="">Àrea de Capacitaciòn</option>
+            <option value="Belleza Integral">Belleza Integral</option>
+            <option value="Informatica">Informatica</option>
+            <option value="Contabilidad y Administración">Contabilidad y Aministracion</option>
+            <option value="Urgencias Médicas">Urgencias y EMergencia Medica</option>
+            <option value="Enfermeria"> Enfermeria</option>
+            <option value="Parvularia"> Parvularia</option>
+        </select>
+
+        <label for="dia">Elija el dia de Clase</label>
+        <select name="dia">
+            <option value="" disabled selected>Dia de Clases</option>
+            <option value="viernes">Viernes</option>
+            <option value="sabado">Sabado</option>
+
+            <label for="horario">Elija el Horario</label>
+            <select name="horario">
+                <option value="" disabled selected>Horario de Clases</option>
+                <option value="mañana">Mañana</option>
+                <option value="tarde">Tarde</option>
+            </select>
+
+            <label for="periodo">Elija el Periodo Academico</label>
+            <select name="periodo">
+                <option value="" disabled selected>Periodo Academico</option>
+                <option value="Noviembre">2024-2025</option>
+                <option value="Mayo">2025-2026</option>
+            </select>
+
+            <label>Jefferson Armando Solano Lloclla</label>
+            <div class="opciones-asistencia">
+              <label><input type="radio" name="Asistencia">Presente</label>
+              <label><input type="radio" name="Asistencia">Ausente</label>
+              <label><input type="radio" name="Asistencia">Falta Injustificada</label>
+              <label><input type="radio" name="Asistencia">Falta Justificada</label>
+            </div>
+
+            <button type="submit">Registro Asistencia</button>
+            <button type="button">Cancelar</button>
+            </fom>
+</body>
+
+</html>
